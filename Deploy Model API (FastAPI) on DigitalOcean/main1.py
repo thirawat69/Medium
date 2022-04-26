@@ -12,11 +12,15 @@ app = FastAPI()
 model = pickle.load(open('RidgeClassifier.sav', 'rb'))
 
 # 4. Test Server
+
+
 @app.get('/')
 def get_root():
     return "Server start!"
 
 # 5. Define predict function:
+
+
 @app.post('/predict')
 def predict(b, c, d, e, f, g, h, i):
     # create data frame
