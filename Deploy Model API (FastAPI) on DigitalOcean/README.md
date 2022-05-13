@@ -7,3 +7,8 @@
 - [Part III](https://medium.com/@thirawatphongsathatkit/deploy-model-api-fastapi-on-digitalocean-part-iii-2590ff8d99cf)
 
 ![preview](<https://github.com/thirawat69/Medium/blob/main/Deploy%20Model%20API%20(FastAPI)%20on%20DigitalOcean/Screenshot.png?raw=true>)
+
+# File
+- RidgeClassifier.sav - เป็นไฟล์โมเดลที่ใช้ในบทความนี้
+- main.py - เป็นไฟล์ทดสอบ run FastAPI
+- main.py - เป็นไฟล์ run FastAPI ที่มีการเรียกใช้ model ด้วย
